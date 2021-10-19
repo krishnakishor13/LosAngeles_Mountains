@@ -1,328 +1,310 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
+  margin: 0;
+  font-family: "Arial", sans-serif;
 }
 
-.main img .background{
-    width: 100%;
-    height: 400px;
+.main img .background {
+  width: 100%;
+  height: 400px;
 }
 
-.main{
-    position: relative;
+.main {
+  position: relative;
 }
 
-.header img{
-    width: 37px;
-    height: 37px;
+.header img {
+  width: 37px;
+  height: 37px;
 }
 
-.main .header{
-    position: absolute;
-    top: 10px;
-    left: 20%;
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
+.main .header {
+  position: absolute;
+  top: 10px;
+  left: 20%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main .header ul {
-    display: flex;
+  display: flex;
 }
 
 .main .header li {
-    list-style: none;
-    padding-left: 20px;
+  list-style: none;
+  padding-left: 20px;
 }
 
 .main .header li a {
-    color: rgb(235, 235, 235);
-    font-style: italic;
+  color: rgb(235, 235, 235);
+  font-style: italic;
 }
 
 .main .text {
-    
-    position: absolute;
-    top: 110px;
-    left: 35%;
-    width: 34%;
-    z-index: 1;
+  position: absolute;
+  top: 110px;
+  left: 35%;
+  width: 34%;
+  z-index: 1;
 }
 
-.main .mountain-left{
-    position: absolute;
-    left:0;
-    bottom: 0;
-    width: 53%;
-    z-index: 2;
+.main .mountain-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 53%;
+  z-index: 2;
 }
-.main .mountain-right{
-    position: absolute;
-    right:0;
-    bottom: 0;
-    width: 53%;
-    z-index: 3;
-}
-
- .section2 {
-    position: absolute;
-    left: 20%;
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
+.main .mountain-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 53%;
+  z-index: 3;
 }
 
- .section2 ul {
-    display: flex;
+.section2 {
+  position: absolute;
+  left: 10%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 }
 
- .section2 li{
-    list-style: none;
-    padding-left: 20px;
+.section2 ul {
+  display: flex;
 }
 
- .section2 li a{
-    color: rgb(48, 46, 46);
-    font-style: italic;
-    font-size: small;
+.section2 li {
+  list-style: none;
+  padding-left: 20px;
 }
 
-.main2{
-    position: relative;
+.section2 li a {
+  color: rgb(48, 46, 46);
+  font-style: italic;
+  font-size: small;
 }
 
+.main2 {
+  position: relative;
+}
 
 .main2 .history {
-    position: absolute;
-    top: 93px;
-    left: 20%;
+  position: absolute;
+  top: 93px;
+  left: 20%;
 }
 .main2 .history p {
-    color:rgb(82, 81, 81);
-    font-size: small;
+  color: rgb(82, 81, 81);
+  font-size: small;
+  text-align: justify;
+  margin-right: 10px;
 }
 
-@media only screen and (max-width:499px){
-
-    .main2 .history p {
-        padding-left : 38px;
-    }
-    
+@media only screen and (max-width: 499px) {
+  .main2 .history p {
+    padding-left: 38px;
+  }
 }
 
-.main2 .section3{
-    position: absolute;
-    bottom: 4px;
-    background-color: black;
-    width: 100%;
-    height: 120px;
-    opacity: 0.6;
+.main2 .section3 {
+  position: absolute;
+  bottom: 4px;
+  background-color: black;
+  width: 100%;
+  height: 120px;
+  opacity: 0.6;
 }
 
 .main2 .section3 .slide-img {
-    position: absolute;
-    bottom: 18px;
-    left: 32%;
+  position: absolute;
+  bottom: 18px;
+  left: 32%;
 }
 
-@media only screen and (max-width:499px){
+@media only screen and (max-width: 499px) {
+  .main2 .section3 {
+    height: 182px;
+  }
 
-    .main2 .section3{
-
-        height: 182px
-    }
-
-    .main2 .section3 .slide-img {
-        left: 90px;
-    }
+  .main2 .section3 .slide-img {
+    left: 90px;
+  }
 }
-@media only screen and (max-width:400px){
-
+@media only screen and (max-width: 400px) {
 }
-@media only screen and (max-width:690px) {
-
-  
-
-    .main2 .section3 .slide-img {
-        left:100px;
-    }
-    
+@media only screen and (max-width: 690px) {
+  .main2 .section3 .slide-img {
+    left: 100px;
+  }
 }
 
-@media only screen and (max-width:540px) {
-    .main2 .section3 .slide-img {
+@media only screen and (max-width: 540px) {
+  .main2 .section3 .slide-img {
     left: 40px;
-    }   
+  }
 }
 
 .section4 {
-    position: absolute;
-    left:20%;
-    padding: 18px;
-    display: flex;
-
+  position: absolute;
+  left: 20%; 
+  padding: 18px;
+  display: flex;
 }
 
-
-
-.section4 p{
-    font-size: small;
-    color: rgb(82, 81, 81);
-    padding-left: 17px;
+.section4 p {
+  font-size: small;
+  color: rgb(82, 81, 81);
+  padding-left: 17px;
+  text-align: justify;
 }
 
 .section5 {
-    position: relative;
-    background-color: black;
-    width: 100%;
-    height: 30px;
-    margin-top: 117px;
-    opacity: 0.6;
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  margin-top: 117px;
+  opacity: 0.6;
 }
 
-.section5 ul{
-    display: flex;
+.section5 ul {
+  display: flex;
 }
 
-.section5 li{
-    position: relative;
-    list-style: none;
-    left: 20%;
-    padding-left: 20px;
-    padding-top: 5px;
+.section5 li {
+  position: relative;
+  list-style: none;
+  left: 20%;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 .section5 li a {
-    color: #afa8a8; 
+  color: #afa8a8;
 }
 
-.section5 li a:hover{
-    background-color: rgb(248, 232, 232);
-    border:6px solid;
-    color:rgb(82,81,81)
+.section5 li a:hover {
+  background-color: rgb(248, 232, 232);
+  border: 6px solid;
+  color: rgb(82, 81, 81);
 }
 
-.main3{
-    position: absolute;
-    
+.main3 {
+  position: absolute;
 }
 
-.main3 .table{
-    position: absolute;
-    top: 20px;
-    left: 20%;
-    
+.main3 .table {
+  position: absolute;
+  top: 20px;
+  left: 20%;
 }
 
 .main3 .table img {
-    width: 260px;
-    height: 200px;
+  width: 260px;
+  height: 200px;
 }
 
-@media only screen and (max-width:321px) {
-    .main3 .table img {
+@media only screen and (max-width: 321px) {
+  .main3 .table img {
     width: 240px;
     height: 200px;
-    }
-    .main3 .table {
-        left: 25px;
-    }
-    .section5 ul li {
-        left: 0%;
-    }
-}
+  }
 
-.main3 .table .tab-cont{
-    position: absolute;
-    top: 30px;
+  .main3 .table {
     left: 25px;
-    font-size: 26px;
-    color: #3c3939;
+  }
+
+  .section5 ul li {
+    left: 0%;
+  }
 }
 
-.main3 .table table{
-    position: absolute;
-    top: 72px;
-    left: 6%;
+.main3 .table .tab-cont {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  font-size: 26px;
+  color: #3c3939;
 }
 
-.main3 .table table tr{
-    line-height: 1.7;
-    font-size: small;
+.main3 .table table {
+  position: absolute;
+  top: 72px;
+  left: 6%;
 }
 
-.main3 .table table tr td{
-    padding-left: 15px;
+.main3 .table table tr {
+  line-height: 1.7;
+  font-size: small;
+}
+
+.main3 .table table tr td {
+  padding-left: 15px;
 }
 
 footer .section6 {
-    position: relative;
-    width:100%;
-    height: 40px;
-    background-color: black;
-    opacity:0.6;
-    margin-top: 400px;
-    
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  opacity: 0.6;
+  margin-top: 400px;
 }
 
-footer .section6 .b3{
-    display: flex;
-    position: absolute;
-    top: 8px;
-    left: 15%;
-    width: 73%;
-    justify-content: space-around;
-
+footer .section6 .b3 {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  left: 15%;
+  width: 73%;
+  justify-content: space-around;
 }
 
-footer .section6 .b3 p{
-    color: #938c8c;
-    font-size: 9px;
-    margin: 0;
-    padding-top: 8px;
+footer .section6 .b3 p {
+  color: #938c8c;
+  font-size: 9px;
+  margin: 0;
+  padding-top: 8px;
 }
 
-@media only screen and (max-width:402px){
-
-    footer .section6 .b3 p{
-        font-size: 7px;
-    }
-
-    .section4 {
-        left: 4px;
-    }
-
-    .section2 {
-        left: 4px
-    }
+@media only screen and (max-width: 402px) {
+  footer .section6 .b3 p {
+    font-size: 7px;
+  }
+  .section4 {
+    left: -1px;
+    padding: 7px;
+  }
 }
 
-@media only screen and (max-width:348px) {
-    .header ul li a {
-        font-size: 8px;
-    }
-    .section2 ul {
-        font-size: 8px;
-    }
-    
+
+@media only screen and (max-width: 348px) {
+  .header ul li a {
+    font-size: 8px;
+  }
+  .section2 ul {
+    font-size: 8px;
+  }
 }
 
-@media only screen and (max-width:329px) {
-    .main2 .section3 .slide-img {
-        left: 50px;
-    }
-    footer .section6 .b3 p{
-        left: auto;
-    }
+@media only screen and (max-width: 329px) {
+  .main2 .section3 .slide-img {
+    left: 50px;
+  }
+  footer .section6 .b3 p {
+    left: auto;
+  }
 
-    .section2 ul {
-        left: 5px;   
-    }
+  .section2 ul {
+    left: 5px;
+  }
 
-    .section2 ul li a {
-        font-size: 8px;
-    }
-    .section4 p {
-        font-size: 8px;
-    }
+  .section2 ul li a {
+    font-size: 8px;
+  }
+  .section4 p {
+    font-size: 8px;
+  }
 }
