@@ -8,6 +8,7 @@
 - HTML
 - CSS
 - PHP
-- Json
 
 # [Live Website Link](https://losangelesmountains.herokuapp.com/)
+
+> You can resuse it to get yourslef familiarize with display properties in CSS
